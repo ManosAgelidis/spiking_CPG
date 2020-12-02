@@ -1,7 +1,7 @@
 README
 ======
 
-To setup the experiment with the spking CPG you need to have the Neurorobotics Platform (NRP) installed or your machine. Instructions on how to do that here [NRP website](http://www.neurorobotics.net)!
+To setup the experiment with the spiking CPG you need to have the Neurorobotics Platform (NRP) installed or your machine. Instructions on how to do that here [NRP website](http://www.neurorobotics.net)!
 
 ## To simulate the isolated spinal cord model ##
     cd Models/brain_model
@@ -13,21 +13,21 @@ This will open a nengo GUI window where you can select the model called Ijspeert
     for ens in model.ensembles:
         ens.neuron_type=nengo.Direct()
         
-Alternatively if you want to run the script offline uncomment these lines:
+Alternatively if you want to run the script with the command line uncomment these lines:
 
     with nengo.Simulator(model) as sim:
         start_time = time.clock()
         sim.run(10)
         print('Time Lasted : {0}'.format(time.clock()-start_time))
         
-Optional: If you want to plot in the offline version uncomment these lines
+Optional: If you want to plot in the command line version uncomment these lines
 
     probe_osc = nengo.Probe(output,synapse=0.3)
     AND
     plt.plot(sim.trange(), sim.data[probe_osc])
     plt.show()
 
-To run the script offline just do 
+To run the script with the command line just do 
 
     python ijspeert_CPG.py
 
@@ -46,8 +46,11 @@ Install nengo_spinnaker
     # optional if in a venv
     source location_of_your_venv
     pip install nengo_spinnaker
-    
-You can only run the SpiNNaker version offline. In the script uncomment the lines
+
+add the line on top of the script
+    import nengo_spinnaker    
+
+You can only run the SpiNNaker version with the command line. In the script uncomment the lines
     
     with nengo.Simulator(model) as sim:
         start_time = time.clock()
@@ -59,6 +62,11 @@ and change the lines
     to 
     with nengo_spinnaker.Simulator(model) as sim:
 
+Then run the script as usual
+    cd Models/brain_model
+    source ~/.opt/platform_venv/bin/activate
+    python ijspeert_CPG.py
+
 ## Running the model on Intel Loihi #
 Setup the Loihi board with instructions found in the INRC wiki
 
@@ -68,17 +76,27 @@ Install nengo_loihi
     source location_of_your_venv
     pip install nengo_loihi
     
-Similar to SpiNNaker, you can only run the Loihi version offline. In the script uncomment the lines
+Similar to SpiNNaker, you can only run the Loihi version with the command line. In the script uncomment the lines
     
     with nengo.Simulator(model) as sim:
         start_time = time.clock()
         sim.run(10)
         print('Time Lasted : {0}'.format(time.clock()-start_time))
 
+add the line on top of the script
+    import nengo_loihi
+
 and change the lines
     with nengo.Simulator(model) as sim:
     to 
     with nengo_loihi.Simulator(model) as sim:
+
+Then run the nengo version of the script
+    cd Models/brain_model
+    source ~/.opt/platform_venv/bin/activate
+    python ijspeert_CPG_loihi.py
+
+There is some commented code in the script if you want to perform some energy benchmarks
 
 ## Setting up the NRP experiment ##
 First you need to copy the experiment and model data into the correct folders
@@ -100,4 +118,4 @@ Then run the NRP:
     cle-nginx
     cle-start
     
-Open a browser window, go to localhost:9000/#/esv-private. From the list of template experiments you should see the amphibot swimming spiking CPG experiment. Press clone. You should get redirected to the page of cloned experiments. Find the amphibot experiment and press launch. If everything goes well you should land in the 3D Scene and be able to play around. Click play to start the simulation - should take some time as the neural net is being initialized - the robot should start swimming, depending on your CPU it might be ~5 to 10 times slower than real-time.
+Open a browser window, go to https://localhost:9000/#/esv-private. From the list of template experiments you should see the amphibot swimming spiking CPG experiment. Press clone. You should get redirected to the page of cloned experiments. Find the amphibot experiment and press launch. If everything goes well you should land in the 3D Scene and be able to play around. Click play to start the simulation - should take some time as the neural net is being initialized - the robot should start swimming, depending on your CPU it might be ~5 to 10 times slower than real-time.
