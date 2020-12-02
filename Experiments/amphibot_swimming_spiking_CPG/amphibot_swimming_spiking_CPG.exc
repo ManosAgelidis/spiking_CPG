@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig" xsi:schemaLocation="http://schemas.humanbrainproject.eu/SP10/2014/ExDConfig ../ExDConfFile.xsd">
+  <name>Amphibot Swimming Experiment With Simple Fluids</name>
+  <thumbnail>amphibotSwimming.png</thumbnail>
+  <description>In this simulation an amphibot model driven by a simple Central Pattern Generator is swimming in a pool of water</description>
+  <tags>fluid virtualroom</tags>
+  <timeout>84000</timeout>
+  <configuration type="3d-settings" src="amphibotSwimming.ini" />
+  <configuration type="brainvisualizer" src="brainvisualizer.json" />
+  <configuration type="user-interaction-settings" src="amphibotSwimming.uis" />
+  <maturity>production</maturity>
+  <environmentModel src="amphibot/amphibot_world_big_pool.sdf">
+   <robotPose robotId="amphibot" x="0.0" y="0.0" z="0.56" roll="0.0" pitch="-0.0" yaw="0.0"/>
+  </environmentModel>
+  <cameraPose>
+    <cameraPosition x="5.056825994369357" y="-1.0210998541555323" z="2.697598759953974"/>
+    <cameraLookAt x="0" y="0" z="0.49999"/>
+  </cameraPose>
+  <bibiConf src="bibi_configuration.bibi" />
+  <gzbridgesettings>
+    <pose_update_delta_translation>1.e-12</pose_update_delta_translation>
+    <pose_update_delta_rotation>1.e-12</pose_update_delta_rotation>
+    <pose_update_early_threshold>0.001</pose_update_early_threshold>
+  </gzbridgesettings>
+</ExD>

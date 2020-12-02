@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.83.1 commit date:2020-06-25, commit time:09:47, hash:8289fc688b3e</authoring_tool>
+    </contributor>
+    <created>2020-07-15T14:24:29</created>
+    <modified>2020-07-15T14:24:29</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Part__Feature054-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8745099 0.0627451 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature055-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8745099 0.0627451 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature056-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3098039 0.3098039 0.3098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature057-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8745099 0.0627451 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature059-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3098039 0.3098039 0.3098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="LED-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0 1 0 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.5</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature003-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3098039 0.3098039 0.3098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature002-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature004-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature005-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature006-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature007-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature008-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature058-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature060-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.6156863 0.05098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature061-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature062-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature063-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature064-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature009-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature010-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature011-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature012-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature013-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature014-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature015-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8588235 0.1098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature016-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.03529412 0.007843138 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature017-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.03529412 0.007843138 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature018-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature028-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature029-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature030-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature031-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature032-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature033-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature034-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.5843138 1 0.5490197 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature035-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature036-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature037-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature038-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature039-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature040-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature041-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature042-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature043-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature044-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature045-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature046-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature047-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature048-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature049-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.03529412 0.007843138 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature050-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1764706 1 0.09019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature051-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature052-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature053-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature019-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature020-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature021-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3098039 0.3098039 0.3098039 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature022-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature023-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.7921569 0.8196079 0.9333333 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature024-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature025-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature026-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Part__Feature027-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">1 0.8509804 0.1019608 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Part__Feature054-material" name="Part__Feature054">
+      <instance_effect url="#Part__Feature054-effect"/>
+    </material>
+    <material id="Part__Feature055-material" name="Part__Feature055">
+      <instance_effect url="#Part__Feature055-effect"/>
+    </material>
+    <material id="Part__Feature056-material" name="Part__Feature056">
+      <instance_effect url="#Part__Feature056-effect"/>
+    </material>
+    <material id="Part__Feature057-material" name="Part__Feature057">
+      <instance_effect url="#Part__Feature057-effect"/>
+    </material>
+    <material id="Part__Feature059-material" name="Part__Feature059">
+      <instance_effect url="#Part__Feature059-effect"/>
+    </material>
+    <material id="LED-material" name="LED">
+      <instance_effect url="#LED-effect"/>
+    </material>
+    <material id="Part__Feature003-material" name="Part__Feature003">
+      <instance_effect url="#Part__Feature003-effect"/>
+    </material>
+    <material id="Part__Feature001-material" name="Part__Feature001">
+      <instance_effect url="#Part__Feature001-effect"/>
+    </material>
+    <material id="Part__Feature002-material" name="Part__Feature002">
+      <instance_effect url="#Part__Feature002-effect"/>
+    </material>
+    <material id="Part__Feature004-material" name="Part__Feature004">
+      <instance_effect url="#Part__Feature004-effect"/>
+    </material>
+    <material id="Part__Feature005-material" name="Part__Feature005">
+      <instance_effect url="#Part__Feature005-effect"/>
+    </material>
+    <material id="Part__Feature006-material" name="Part__Feature006">
+      <instance_effect url="#Part__Feature006-effect"/>
+    </material>
+    <material id="Part__Feature007-material" name="Part__Feature007">
+      <instance_effect url="#Part__Feature007-effect"/>
+    </material>
+    <material id="Part__Feature008-material" name="Part__Feature008">
+      <instance_effect url="#Part__Feature008-effect"/>
+    </material>
+    <material id="Part__Feature058-material" name="Part__Feature058">
+      <instance_effect url="#Part__Feature058-effect"/>
+    </material>
+    <material id="Part__Feature060-material" name="Part__Feature060">
+      <instance_effect url="#Part__Feature060-effect"/>
+    </material>
+    <material id="Part__Feature061-material" name="Part__Feature061">
+      <instance_effect url="#Part__Feature061-effect"/>
+    </material>
+    <material id="Part__Feature062-material" name="Part__Feature062">
+      <instance_effect url="#Part__Feature062-effect"/>
+    </material>
+    <material id="Part__Feature063-material" name="Part__Feature063">
+      <instance_effect url="#Part__Feature063-effect"/>
+    </material>
+    <material id="Part__Feature064-material" name="Part__Feature064">
+      <instance_effect url="#Part__Feature064-effect"/>
+    </material>
+    <material id="Part__Feature009-material" name="Part__Feature009">
+      <instance_effect url="#Part__Feature009-effect"/>
+    </material>
+    <material id="Part__Feature010-material" name="Part__Feature010">
+      <instance_effect url="#Part__Feature010-effect"/>
+    </material>
+    <material id="Part__Feature011-material" name="Part__Feature011">
+      <instance_effect url="#Part__Feature011-effect"/>
+    </material>
+    <material id="Part__Feature012-material" name="Part__Feature012">
+      <instance_effect url="#Part__Feature012-effect"/>
+    </material>
+    <material id="Part__Feature013-material" name="Part__Feature013">
+      <instance_effect url="#Part__Feature013-effect"/>
+    </material>
+    <material id="Part__Feature014-material" name="Part__Feature014">
+      <instance_effect url="#Part__Feature014-effect"/>
+    </material>
+    <material id="Part__Feature015-material" name="Part__Feature015">
+      <instance_effect url="#Part__Feature015-effect"/>
+    </material>
+    <material id="Part__Feature016-material" name="Part__Feature016">
+      <instance_effect url="#Part__Feature016-effect"/>
+    </material>
+    <material id="Part__Feature017-material" name="Part__Feature017">
+      <instance_effect url="#Part__Feature017-effect"/>
+    </material>
+    <material id="Part__Feature018-material" name="Part__Feature018">
+      <instance_effect url="#Part__Feature018-effect"/>
+    </material>
+    <material id="Part__Feature028-material" name="Part__Feature028">
+      <instance_effect url="#Part__Feature028-effect"/>
+    </material>
+    <material id="Part__Feature029-material" name="Part__Feature029">
+      <instance_effect url="#Part__Feature029-effect"/>
+    </material>
+    <material id="Part__Feature030-material" name="Part__Feature030">
+      <instance_effect url="#Part__Feature030-effect"/>
+    </material>
+    <material id="Part__Feature031-material" name="Part__Feature031">
+      <instance_effect url="#Part__Feature031-effect"/>
+    </material>
+    <material id="Part__Feature032-material" name="Part__Feature032">
+      <instance_effect url="#Part__Feature032-effect"/>
+    </material>
+    <material id="Part__Feature033-material" name="Part__Feature033">
+      <instance_effect url="#Part__Feature033-effect"/>
+    </material>
+    <material id="Part__Feature034-material" name="Part__Feature034">
+      <instance_effect url="#Part__Feature034-effect"/>
+    </material>
+    <material id="Part__Feature035-material" name="Part__Feature035">
+      <instance_effect url="#Part__Feature035-effect"/>
+    </material>
+    <material id="Part__Feature036-material" name="Part__Feature036">
+      <instance_effect url="#Part__Feature036-effect"/>
+    </material>
+    <material id="Part__Feature037-material" name="Part__Feature037">
+      <instance_effect url="#Part__Feature037-effect"/>
+    </material>
+    <material id="Part__Feature038-material" name="Part__Feature038">
+      <instance_effect url="#Part__Feature038-effect"/>
+    </material>
+    <material id="Part__Feature039-material" name="Part__Feature039">
+      <instance_effect url="#Part__Feature039-effect"/>
+    </material>
+    <material id="Part__Feature040-material" name="Part__Feature040">
+      <instance_effect url="#Part__Feature040-effect"/>
+    </material>
+    <material id="Part__Feature041-material" name="Part__Feature041">
+      <instance_effect url="#Part__Feature041-effect"/>
+    </material>
+    <material id="Part__Feature042-material" name="Part__Feature042">
+      <instance_effect url="#Part__Feature042-effect"/>
+    </material>
+    <material id="Part__Feature043-material" name="Part__Feature043">
+      <instance_effect url="#Part__Feature043-effect"/>
+    </material>
+    <material id="Part__Feature044-material" name="Part__Feature044">
+      <instance_effect url="#Part__Feature044-effect"/>
+    </material>
+    <material id="Part__Feature045-material" name="Part__Feature045">
+      <instance_effect url="#Part__Feature045-effect"/>
+    </material>
+    <material id="Part__Feature046-material" name="Part__Feature046">
+      <instance_effect url="#Part__Feature046-effect"/>
+    </material>
+    <material id="Part__Feature047-material" name="Part__Feature047">
+      <instance_effect url="#Part__Feature047-effect"/>
+    </material>
+    <material id="Part__Feature048-material" name="Part__Feature048">
+      <instance_effect url="#Part__Feature048-effect"/>
+    </material>
+    <material id="Part__Feature049-material" name="Part__Feature049">
+      <instance_effect url="#Part__Feature049-effect"/>
+    </material>
+    <material id="Part__Feature050-material" name="Part__Feature050">
+      <instance_effect url="#Part__Feature050-effect"/>
+    </material>
+    <material id="Part__Feature051-material" name="Part__Feature051">
+      <instance_effect url="#Part__Feature051-effect"/>
+    </material>
+    <material id="Part__Feature052-material" name="Part__Feature052">
+      <instance_effect url="#Part__Feature052-effect"/>
+    </material>
+    <material id="Part__Feature053-material" name="Part__Feature053">
+      <instance_effect url="#Part__Feature053-effect"/>
+    </material>
+    <material id="Part__Feature019-material" name="Part__Feature019">
+      <instance_effect url="#Part__Feature019-effect"/>
+    </material>
+    <material id="Part__Feature020-material" name="Part__Feature020">
+      <instance_effect url="#Part__Feature020-effect"/>
+    </material>
+    <material id="Part__Feature021-material" name="Part__Feature021">
+      <instance_effect url="#Part__Feature021-effect"/>
+    </material>
+    <material id="Part__Feature022-material" name="Part__Feature022">
+      <instance_effect url="#Part__Feature022-effect"/>
+    </material>
+    <material id="Part__Feature023-material" name="Part__Feature023">
+      <instance_effect url="#Part__Feature023-effect"/>
+    </material>
+    <material id="Part__Feature024-material" name="Part__Feature024">
+      <instance_effect url="#Part__Feature024-effect"/>
+    </material>
+    <material id="Part__Feature025-material" name="Part__Feature025">
+      <instance_effect url="#Part__Feature025-effect"/>
+    </material>
+    <material id="Part__Feature026-material" name="Part__Feature026">
+      <instance_effect url="#Part__Feature026-effect"/>
+    </material>
+    <material id="Part__Feature027-material" name="Part__Feature027">
+      <instance_effect url="#Part__Feature027-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="amphibot_tail-mesh" name="amphibot_tail">
+      <mesh>
+        <source id="amphibot_tail-mesh-positions">
+          <float_array id="amphibot_tail-mesh-positions-array" count="294">-0.01773232 0 0.02745968 0.07070243 0 0.02745968 0.07084304 0 0.02745229 0.07100766 0 0.0274347 0.07122522 0 0.02740055 0.07148844 0 0.02734404 0.07178986 0 0.02726006 0.07212197 0 0.0271427 0.07247751 0 0.02698642 0.07284897 0 0.02678591 0.07322901 0 0.02653551 0.07361018 0 0.02622956 0.07398504 0 0.02586269 0.07398504 0 -0.02399146 0.07395493 0 -0.02447134 0.07386726 0 -0.02493214 0.07372605 0 -0.02536952 0.0735352 0 -0.025779 0.07329881 0 -0.02615672 0.07302081 0 -0.02649796 0.0727052 0 -0.02679854 0.07235592 0 -0.02705413 0.07197707 0 -0.02726042 0.07157254 0 -0.02741307 0.0711463 0 -0.0275079 0.07070243 0 -0.02754044 -0.0195378 0 -0.02754044 -0.01987713 0 -0.02713513 -0.02016001 0 -0.02672296 -0.0203917 0 -0.02631223 -0.02057725 0 -0.02591055 -0.02072167 0 -0.02552622 -0.02083021 0 -0.02516698 -0.02090799 0 -0.02484112 -0.02096015 0 -0.02455657 -0.0209918 0 -0.02432131 -0.02100807 0 -0.02414333 -0.0210148 0 -0.02399146 -0.0210148 0 0.0239107 -0.02089709 0 0.02417343 -0.02075582 0 0.0244652 -0.02056509 0 0.02483069 -0.02032864 0 0.02524554 -0.02005064 0 0.02568519 -0.01973497 0 0.02612471 -0.01938581 0 0.02653956 -0.01900684 0 0.026905 -0.01860237 0 0.02719676 -0.01817613 0 0.02738982 -0.01773232 -0.002999961 0.02745968 0.07070243 -0.002999961 0.02745968 0.07084304 -0.002999961 0.02745229 0.07100766 -0.002999961 0.0274347 0.07122522 -0.002999961 0.02740055 0.07148844 -0.002999961 0.02734404 0.07178986 -0.002999961 0.02726006 0.07212197 -0.002999961 0.0271427 0.07247751 -0.002999961 0.02698642 0.07284897 -0.002999961 0.02678591 0.07322901 -0.002999961 0.02653551 0.07361018 -0.002999961 0.02622956 0.07398504 -0.002999961 0.02586269 0.07398504 -0.002999842 -0.02399146 0.07395493 -0.002999842 -0.02447134 0.07386726 -0.002999842 -0.02493214 0.07372605 -0.002999842 -0.02536952 0.0735352 -0.002999842 -0.025779 0.07329881 -0.002999842 -0.02615672 0.07302081 -0.002999842 -0.02649796 0.0727052 -0.002999842 -0.02679854 0.07235592 -0.002999842 -0.02705413 0.07197707 -0.002999842 -0.02726042 0.07157254 -0.002999842 -0.02741307 0.0711463 -0.002999842 -0.0275079 0.07070243 -0.002999842 -0.02754044 -0.0195378 -0.002999842 -0.02754044 -0.01987713 -0.002999842 -0.02713513 -0.02016001 -0.002999842 -0.02672296 -0.0203917 -0.002999842 -0.02631223 -0.02057725 -0.002999842 -0.02591055 -0.02072167 -0.002999842 -0.02552622 -0.02083021 -0.002999842 -0.02516698 -0.02090799 -0.002999842 -0.02484112 -0.02096015 -0.002999842 -0.02455657 -0.0209918 -0.002999842 -0.02432131 -0.02100807 -0.002999842 -0.02414333 -0.0210148 -0.002999842 -0.02399146 -0.0210148 -0.002999961 0.0239107 -0.02089709 -0.002999961 0.02417343 -0.02075582 -0.002999961 0.0244652 -0.02056509 -0.002999961 0.02483069 -0.02032864 -0.002999961 0.02524554 -0.02005064 -0.002999961 0.02568519 -0.01973497 -0.002999961 0.02612471 -0.01938581 -0.002999961 0.02653956 -0.01900684 -0.002999961 0.026905 -0.01860237 -0.002999961 0.02719676 -0.01817613 -0.002999961 0.02738982</float_array>
+          <technique_common>
+            <accessor source="#amphibot_tail-mesh-positions-array" count="98" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="amphibot_tail-mesh-normals">
+          <float_array id="amphibot_tail-mesh-normals-array" count="378">-0.5501873 0 -0.8350414 -0.6259494 0 -0.7798637 -0.6994465 0 -0.714685 -0.9980376 0 0.06261652 -0.9823778 0 0.1869067 -0.9516314 0 0.3072421 -0.9064131 0 0.4223924 -0.8476399 0 0.5305721 -0.775283 0 0.631614 -0.6896518 0 0.7241412 -0.5905334 0 0.8070133 -0.4782109 0 0.8782451 -0.3530516 0 0.9356039 -0.2171772 0 0.9761322 -0.07309985 0 0.9973247 0.7667565 0 0.641938 0.8244019 0 0.5660049 0.8710636 0 0.4911703 0.9078231 0 0.4193534 0.9360927 0 0.3517534 0.9572483 0 0.2892676 0.9726346 0 0.2323404 0.9836477 0 0.1801036 0.9910715 0 0.1333317 0.9958475 0 0.09103846 0.9000837 0 -0.4357172 0.8865175 0 -0.4626951 0.8687897 0 -0.4951815 0.8451729 0 -0.5344932 0.8122717 0 -0.5832793 0.7650281 0 -0.643997 0.6942436 0 -0.7197402 0.5848976 0 -0.8111072 1 0 0 0.4126426 0 -0.910893 -0.1062678 0 -0.9943376 0.1554635 0 -0.9878417 -0.1550669 0 -0.9879041 -0.2096818 0 -0.9777697 -0.2685791 0 -0.9632577 -0.3331804 0 -0.9428631 -0.4023968 0 -0.9154654 -0.4750064 0 -0.8799824 0 -1 -3.34267e-6 0 -1 1.53402e-6 1.35581e-6 -1 -1.24936e-6 -1.07614e-5 -1 -1.84322e-6 -7.51611e-6 -1 0 -5.87432e-6 -1 -1.21095e-6 -4.71067e-6 -1 -9.32095e-7 -3.83362e-6 -1 -6.17861e-7 -3.16138e-6 -1 -9.74477e-7 -2.62324e-6 -1 -9.7528e-7 -2.18448e-6 -1 -1.07042e-6 -1.82144e-6 -1 -1.007e-6 -1.51585e-6 -1 -1.05116e-6 -1.25534e-6 -1 -1.04338e-6 0 -1 -1.09068e-6 0 -1 -2.44114e-6 1.7881e-7 -1 0 2.55925e-7 -1 -1.32629e-6 3.15824e-7 -1 0 3.64979e-7 -1 -4.86462e-7 4.07509e-7 -1 -7.82576e-7 4.45918e-7 -1 -7.12258e-7 4.82137e-7 -1 3.69667e-7 5.17504e-7 -1 -4.04161e-7 -0.912553 0 0.4089586 5.53568e-7 -1 -7.07816e-7 5.91434e-7 -1 9.41273e-7 -1 0 0 6.32681e-7 -1 -7.85045e-7 0 -1 -1.20935e-6 0 -1 2.13272e-7 0 -1 1.34055e-6 -0.9990031 0 -0.04464215 0 -1 -1.64252e-6 0 -1 2.91957e-7 0 -1 2.15463e-6 0 -1 -8.49384e-7 0 0 -1 0 -1 1.5385e-6 0 -1 -3.70173e-6 0 -1 -5.93767e-6 0 -1 9.78591e-6 0 -1 -2.45309e-5 0 1 0 0.05246561 0 0.9986228 0 0 1 0 -1 -4.06587e-6 0 -1 4.6264e-6 0 -1 -2.66772e-6 0 -1 0 0 -1 -2.47738e-7 0 -1 -2.16214e-7 0 -1 8.21498e-7 0 -1 1.49044e-6 -0.5501947 0 -0.8350364 -0.6259615 0 -0.7798541 -0.6994512 0 -0.7146804 -0.9980376 0 0.06261712 -0.9823781 0 0.1869048 -0.9516324 0 0.3072391 -0.8476429 0 0.5305672 -0.7752875 0 0.6316087 -0.6896635 0 0.72413 -0.4782283 0 0.8782356 -0.07311069 0 0.9973239 0.824405 0 0.5660004 0.8710662 0 0.4911659 0.9360913 0 0.3517574 0.9572472 0 0.2892712 0.9726354 0 0.2323371 0.9836482 0 0.1801006 0.9910719 0 0.133329 0.9958477 0 0.09103596 0.9000865 0 -0.4357113 0.8122746 0 -0.5832751 0.6942483 0 -0.7197356 0.5848912 0 -0.8111118 -0.1062389 0 -0.9943407 0.1554741 0 -0.9878401 -0.1550883 0 -0.9879006 -0.2685648 0 -0.9632617 -0.3331927 0 -0.9428589 -0.4750153 0 -0.8799776</float_array>
+          <technique_common>
+            <accessor source="#amphibot_tail-mesh-normals-array" count="126" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="amphibot_tail-mesh-map-0">
+          <float_array id="amphibot_tail-mesh-map-0-array" count="1152">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#amphibot_tail-mesh-map-0-array" count="576" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="amphibot_tail-mesh-vertices">
+          <input semantic="POSITION" source="#amphibot_tail-mesh-positions"/>
+        </vertices>
+        <triangles material="Part__Feature003-material" count="192">
+          <input semantic="VERTEX" source="#amphibot_tail-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#amphibot_tail-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#amphibot_tail-mesh-map-0" offset="2" set="0"/>
+          <p>10 0 0 58 0 1 9 0 2 11 1 3 59 1 4 10 1 5 12 2 6 60 2 7 11 2 8 14 3 9 62 3 10 13 3 11 15 4 12 63 4 13 14 4 14 16 5 15 64 5 16 15 5 17 17 6 18 65 6 19 16 6 20 18 7 21 66 7 22 17 7 23 19 8 24 67 8 25 18 8 26 20 9 27 68 9 28 19 9 29 21 10 30 69 10 31 20 10 32 22 11 33 70 11 34 21 11 35 23 12 36 71 12 37 22 12 38 24 13 39 72 13 40 23 13 41 25 14 42 73 14 43 24 14 44 27 15 45 75 15 46 26 15 47 28 16 48 76 16 49 27 16 50 29 17 51 77 17 52 28 17 53 30 18 54 78 18 55 29 18 56 31 19 57 79 19 58 30 19 59 32 20 60 80 20 61 31 20 62 33 21 63 81 21 64 32 21 65 34 22 66 82 22 67 33 22 68 35 23 69 83 23 70 34 23 71 36 24 72 84 24 73 35 24 74 40 25 75 88 25 76 39 25 77 41 26 78 89 26 79 40 26 80 42 27 81 90 27 82 41 27 83 43 28 84 91 28 85 42 28 86 44 29 87 92 29 88 43 29 89 45 30 90 93 30 91 44 30 92 46 31 93 94 31 94 45 31 95 47 32 96 95 32 97 46 32 98 61 33 99 13 33 100 12 33 101 48 34 102 96 34 103 47 34 104 3 35 105 51 35 106 2 35 107 0 36 108 97 36 109 48 36 110 4 37 111 52 37 112 3 37 113 5 38 114 53 38 115 4 38 116 6 39 117 54 39 118 5 39 119 7 40 120 55 40 121 6 40 122 8 41 123 56 41 124 7 41 125 9 42 126 57 42 127 8 42 128 49 43 129 89 43 130 88 43 131 49 44 132 88 44 133 87 44 134 49 45 135 87 45 136 86 45 137 49 46 138 86 46 139 85 46 140 49 47 141 85 47 142 84 47 143 49 48 144 84 48 145 83 48 146 49 49 147 83 49 148 82 49 149 49 50 150 82 50 151 81 50 152 49 51 153 81 51 154 80 51 155 49 52 156 80 52 157 79 52 158 49 53 159 79 53 160 78 53 161 49 54 162 78 54 163 77 54 164 49 55 165 77 55 166 76 55 167 49 56 168 76 56 169 75 56 170 49 57 171 75 57 172 74 57 173 49 58 174 74 58 175 73 58 176 49 59 177 73 59 178 72 59 179 49 60 180 72 60 181 71 60 182 49 61 183 71 61 184 70 61 185 49 62 186 70 62 187 69 62 188 49 63 189 69 63 190 68 63 191 49 64 192 68 64 193 67 64 194 49 65 195 67 65 196 66 65 197 49 66 198 66 66 199 65 66 200 88 67 201 38 67 202 87 67 203 49 68 204 65 68 205 64 68 206 49 69 207 64 69 208 63 69 209 87 70 210 37 70 211 86 70 212 49 71 213 63 71 214 62 71 215 49 72 216 62 72 217 61 72 218 49 73 219 61 73 220 60 73 221 49 74 222 60 74 223 59 74 224 86 75 225 36 75 226 85 75 227 49 76 228 59 76 229 58 76 230 49 77 231 58 77 232 57 77 233 49 78 234 57 78 235 56 78 236 49 79 237 56 79 238 55 79 239 74 80 240 26 80 241 25 80 242 49 81 243 55 81 244 54 81 245 49 82 246 54 82 247 53 82 248 49 83 249 53 83 250 52 83 251 49 84 252 52 84 253 51 84 254 49 85 255 51 85 256 50 85 257 2 86 258 3 86 259 4 86 260 2 86 261 4 86 262 5 86 263 2 86 264 5 86 265 6 86 266 2 86 267 6 86 268 7 86 269 2 86 270 7 86 271 8 86 272 2 86 273 8 86 274 9 86 275 2 86 276 9 86 277 10 86 278 2 86 279 10 86 280 11 86 281 2 86 282 11 86 283 12 86 284 2 86 285 12 86 286 13 86 287 2 86 288 13 86 289 14 86 290 2 86 291 14 86 292 15 86 293 2 86 294 15 86 295 16 86 296 2 86 297 16 86 298 17 86 299 2 86 300 17 86 301 18 86 302 2 86 303 18 86 304 19 86 305 2 86 306 19 86 307 20 86 308 2 86 309 20 86 310 21 86 311 2 86 312 21 86 313 22 86 314 2 86 315 22 86 316 23 86 317 2 86 318 23 86 319 24 86 320 2 86 321 24 86 322 25 86 323 2 86 324 27 86 325 28 86 326 2 86 327 28 86 328 29 86 329 2 86 330 29 86 331 30 86 332 2 86 333 30 86 334 31 86 335 2 86 336 31 86 337 32 86 338 2 86 339 32 86 340 33 86 341 2 86 342 33 86 343 34 86 344 2 86 345 34 86 346 35 86 347 2 86 348 35 86 349 36 86 350 2 86 351 36 86 352 37 86 353 2 86 354 37 86 355 38 86 356 50 87 357 2 87 358 1 87 359 2 86 360 38 86 361 39 86 362 2 86 363 39 86 364 40 86 365 2 86 366 40 86 367 41 86 368 2 86 369 41 86 370 42 86 371 2 86 372 42 86 373 43 86 374 2 86 375 43 86 376 44 86 377 2 86 378 44 86 379 45 86 380 2 86 381 45 86 382 46 86 383 2 86 384 46 86 385 47 86 386 2 86 387 47 86 388 48 86 389 2 86 390 48 86 391 0 86 392 2 86 393 0 86 394 1 86 395 50 88 396 0 88 397 49 88 398 27 86 399 25 86 400 26 86 401 49 89 402 97 89 403 96 89 404 49 90 405 96 90 406 95 90 407 49 91 408 95 91 409 94 91 410 49 92 411 94 92 412 93 92 413 49 93 414 93 93 415 92 93 416 49 94 417 92 94 418 91 94 419 49 95 420 91 95 421 90 95 422 49 96 423 90 96 424 89 96 425 10 97 426 59 97 427 58 97 428 11 98 429 60 98 430 59 98 431 12 99 432 61 99 433 60 99 434 14 100 435 63 100 436 62 100 437 15 101 438 64 101 439 63 101 440 16 102 441 65 102 442 64 102 443 17 6 444 66 6 445 65 6 446 18 103 447 67 103 448 66 103 449 19 104 450 68 104 451 67 104 452 20 105 453 69 105 454 68 105 455 21 10 456 70 10 457 69 10 458 22 106 459 71 106 460 70 106 461 23 12 462 72 12 463 71 12 464 24 13 465 73 13 466 72 13 467 25 107 468 74 107 469 73 107 470 27 15 471 76 15 472 75 15 473 28 108 474 77 108 475 76 108 476 29 109 477 78 109 478 77 109 479 30 18 480 79 18 481 78 18 482 31 110 483 80 110 484 79 110 485 32 111 486 81 111 487 80 111 488 33 112 489 82 112 490 81 112 491 34 113 492 83 113 493 82 113 494 35 114 495 84 114 496 83 114 497 36 115 498 85 115 499 84 115 500 40 116 501 89 116 502 88 116 503 41 26 504 90 26 505 89 26 506 42 27 507 91 27 508 90 27 509 43 28 510 92 28 511 91 28 512 44 117 513 93 117 514 92 117 515 45 30 516 94 30 517 93 30 518 46 118 519 95 118 520 94 118 521 47 119 522 96 119 523 95 119 524 61 33 525 62 33 526 13 33 527 48 34 528 97 34 529 96 34 530 3 120 531 52 120 532 51 120 533 0 121 534 49 121 535 97 121 536 4 122 537 53 122 538 52 122 539 5 38 540 54 38 541 53 38 542 6 123 543 55 123 544 54 123 545 7 124 546 56 124 547 55 124 548 8 41 549 57 41 550 56 41 551 9 125 552 58 125 553 57 125 554 88 67 555 39 67 556 38 67 557 87 70 558 38 70 559 37 70 560 86 75 561 37 75 562 36 75 563 74 80 564 75 80 565 26 80 566 50 87 567 51 87 568 2 87 569 50 88 570 1 88 571 0 88 572 27 86 573 2 86 574 25 86 575</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="amphibot_tail" name="amphibot_tail" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#amphibot_tail-mesh" name="amphibot_tail">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Part__Feature054-material" target="#Part__Feature054-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature055-material" target="#Part__Feature055-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature056-material" target="#Part__Feature056-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature057-material" target="#Part__Feature057-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature059-material" target="#Part__Feature059-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="LED-material" target="#LED-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature003-material" target="#Part__Feature003-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature001-material" target="#Part__Feature001-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature002-material" target="#Part__Feature002-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature004-material" target="#Part__Feature004-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature005-material" target="#Part__Feature005-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature006-material" target="#Part__Feature006-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature007-material" target="#Part__Feature007-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature008-material" target="#Part__Feature008-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature058-material" target="#Part__Feature058-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature060-material" target="#Part__Feature060-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature061-material" target="#Part__Feature061-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature062-material" target="#Part__Feature062-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature063-material" target="#Part__Feature063-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature064-material" target="#Part__Feature064-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature009-material" target="#Part__Feature009-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature010-material" target="#Part__Feature010-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature011-material" target="#Part__Feature011-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature012-material" target="#Part__Feature012-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature013-material" target="#Part__Feature013-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature014-material" target="#Part__Feature014-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature015-material" target="#Part__Feature015-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature016-material" target="#Part__Feature016-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature017-material" target="#Part__Feature017-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature018-material" target="#Part__Feature018-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature028-material" target="#Part__Feature028-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature029-material" target="#Part__Feature029-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature030-material" target="#Part__Feature030-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature031-material" target="#Part__Feature031-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature032-material" target="#Part__Feature032-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature033-material" target="#Part__Feature033-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature034-material" target="#Part__Feature034-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature035-material" target="#Part__Feature035-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature036-material" target="#Part__Feature036-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature037-material" target="#Part__Feature037-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature038-material" target="#Part__Feature038-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature039-material" target="#Part__Feature039-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature040-material" target="#Part__Feature040-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature041-material" target="#Part__Feature041-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature042-material" target="#Part__Feature042-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature043-material" target="#Part__Feature043-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature044-material" target="#Part__Feature044-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature045-material" target="#Part__Feature045-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature046-material" target="#Part__Feature046-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature047-material" target="#Part__Feature047-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature048-material" target="#Part__Feature048-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature049-material" target="#Part__Feature049-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature050-material" target="#Part__Feature050-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature051-material" target="#Part__Feature051-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature052-material" target="#Part__Feature052-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature053-material" target="#Part__Feature053-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature019-material" target="#Part__Feature019-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature020-material" target="#Part__Feature020-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature021-material" target="#Part__Feature021-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature022-material" target="#Part__Feature022-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature023-material" target="#Part__Feature023-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature024-material" target="#Part__Feature024-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature025-material" target="#Part__Feature025-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature026-material" target="#Part__Feature026-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Part__Feature027-material" target="#Part__Feature027-material">
+                <bind_vertex_input semantic="amphibot_tail-mesh-map-0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

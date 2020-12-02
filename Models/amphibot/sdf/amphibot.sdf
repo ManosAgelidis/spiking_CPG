@@ -1,0 +1,681 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="amphibot">
+    <static>false</static>
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="body_module_0">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_0_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_0_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_1">
+      <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_1_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_1_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_2">
+      <pose>0.195 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_2_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_2_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_3">
+      <pose>0.2925 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_3_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_3_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_4">
+      <pose>0.39 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_4_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_4_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_5">
+      <pose>0.48750000000000004 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_5_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_5_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_module_6">
+      <pose>0.585 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.03008411388535613 3.215854099859687e-05 -4.869448966906756e-05 0.0 0.0 0.0</pose>
+        <mass>0.214</mass>
+        <inertia>
+          <ixx>9.12681710047744e-05</ixx>
+          <ixy>1.848417294317872e-09</ixy>
+          <ixz>1.1074904592586922e-08</ixz>
+          <iyy>0.00019972990177748257</iyy>
+          <iyz>-3.938113086864309e-09</iyz>
+          <izz>0.00017273416551466823</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_module_6_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_module_6_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_module.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_0">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_0_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_0_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_1">
+      <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_1_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_1_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_2">
+      <pose>0.195 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_2_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_2_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_3">
+      <pose>0.2925 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_3_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_3_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_4">
+      <pose>0.39 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_4_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_4_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="body_connector_5">
+      <pose>0.48750000000000004 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0870838011914423 9.854652666755277e-06 0.009335993975232255 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>7.144793357561162e-07</ixx>
+          <ixy>-3.5627770246883753e-11</ixy>
+          <ixz>3.675871019561933e-08</ixz>
+          <iyy>7.820375284625299e-07</iyy>
+          <iyz>-1.8301435317497848e-11</iyz>
+          <izz>1.0666696127239847e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="body_connector_5_collision">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="body_connector_5_visual">
+        <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_connector.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="tail">
+      <pose>0.6825 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.027042109434386934 -0.001865254984879075 -0.00032043625271577605 0.0 0.0 0.0</pose>
+        <mass>0.018</mass>
+        <inertia>
+          <ixx>5.026385123630433e-06</ixx>
+          <ixy>1.778138135126363e-07</ixy>
+          <ixz>2.601906696340963e-07</ixz>
+          <iyy>1.8432748243088785e-05</iyy>
+          <iyz>-9.177519623265663e-09</iyz>
+          <izz>1.341540669110615e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name="tail_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_tail.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="tail_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_tail.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <link name="eyes">
+      <pose>0.0975 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>-0.09731520740143583 3.323096332725175e-05 0.009787513378397868 0.0 0.0 0.0</pose>
+        <mass>0.01</mass>
+        <inertia>
+          <ixx>1.528677884321247e-06</ixx>
+          <ixy>1.6502736236339367e-10</ixy>
+          <ixz>-2.9481793462596264e-09</ixz>
+          <iyy>1.1615283632216405e-06</iyy>
+          <iyz>-6.537034580072569e-11</iyz>
+          <izz>2.136549089153614e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name="eyes_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_eyes.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="eyes_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://amphibot/meshes/amphibot_eyes.dae</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material/>
+      </visual>
+    </link>
+    <joint name="joint_m2c_0" type="fixed">
+      <parent>body_module_0</parent>
+      <child>body_connector_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_m2c_1" type="fixed">
+      <parent>body_module_1</parent>
+      <child>body_connector_1</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_m2c_2" type="fixed">
+      <parent>body_module_2</parent>
+      <child>body_connector_2</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_m2c_3" type="fixed">
+      <parent>body_module_3</parent>
+      <child>body_connector_3</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_m2c_4" type="fixed">
+      <parent>body_module_4</parent>
+      <child>body_connector_4</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_m2c_5" type="fixed">
+      <parent>body_module_5</parent>
+      <child>body_connector_5</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_c2m_0" type="revolute">
+      <parent>body_connector_0</parent>
+      <child>body_module_1</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_c2m_1" type="revolute">
+      <parent>body_connector_1</parent>
+      <child>body_module_2</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_c2m_2" type="revolute">
+      <parent>body_connector_2</parent>
+      <child>body_module_3</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_c2m_3" type="revolute">
+      <parent>body_connector_3</parent>
+      <child>body_module_4</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_c2m_4" type="revolute">
+      <parent>body_connector_4</parent>
+      <child>body_module_5</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_c2m_5" type="revolute">
+      <parent>body_connector_5</parent>
+      <child>body_module_6</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-3.141592653589793</lower>
+          <upper>3.141592653589793</upper>
+          <effort>10000000000.0</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_tail" type="fixed">
+      <parent>body_module_6</parent>
+      <child>tail</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_eyes" type="fixed">
+      <parent>body_module_0</parent>
+      <child>eyes</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <plugin name="FluidPlugin" filename="libFluidSimulator.so">
+      <fluidConfiguration>
+        <timeStepSize>0.001</timeStepSize>
+        <simulationMethod>4</simulationMethod>
+        <particleRadius>0.025</particleRadius>
+        <gravitation>0 0 -9.81</gravitation>
+        <cflMethod>0</cflMethod>
+        <cflFactor>0.45</cflFactor>
+        <cflMaxTimeStepSize>0.01</cflMaxTimeStepSize>
+        <maxIterations>100</maxIterations>
+        <maxError>0.05</maxError>
+        <maxIterationsV>100</maxIterationsV>
+        <maxErrorV>0.1</maxErrorV>
+        <stiffness>50000</stiffness>
+        <exponent>7</exponent>
+        <enableDivergenceSolver>true</enableDivergenceSolver>
+        <velocityUpdateMethod>0</velocityUpdateMethod>
+        <boundaryHandlingMethod>0</boundaryHandlingMethod>
+        <enableVTKExport>false</enableVTKExport>
+        <enablePartioExport>false</enablePartioExport>
+        <enableRigidBodyVTKExport>false</enableRigidBodyVTKExport>
+      </fluidConfiguration>
+      <fluid>
+        <viscosity>0.1</viscosity>
+        <viscosityMethod>1</viscosityMethod>
+      </fluid>
+      <fluidBlock>
+        <denseMode>0</denseMode>
+        <start>-3 -1 0.01</start>
+        <end>3 1 0.2</end>
+      </fluidBlock>
+      <fluidModels>
+        <particleFile>../models/particle_grid.bgeo</particleFile>
+        <translation>0.0 0.0 0.0 </translation>
+        <scale>1.0 1.0 1.0 </scale>
+      </fluidModels>
+    </plugin>
+    <plugin name="joint_controller" filename="libamphibot_joint_controller.so"></plugin>
+    <!-- <plugin name="FluidPlugin" filename="liblamprey_drag_force.so"></plugin>
+ -->
+  </model>
+</sdf>

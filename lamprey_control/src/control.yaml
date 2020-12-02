@@ -1,0 +1,102 @@
+joints:
+  joint_c2m_0:
+    pid:
+      position:
+        p: 5.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_1:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_2:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_3:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_4:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_5:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_6:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+  joint_c2m_7:
+    pid:
+      position:
+        p: 10.0
+        i: 0.0
+        d: 0.05
+      velocity:
+        p: 0.1
+        i: 0
+        d: 0
+dragCoefficients:
+  xCoeff: -1.0 
+  yCoeff: -250.0
+  zCoeff: -1.0
+method:
+  velocityControl: false
+  PDControl: false
+  GazeboPIDControl: true
+  directPositionControl: false
+oscillation:
+  amplitude: 0.5
+  frequency: 2.0
+  bias: 0.0
+  phase: 1.5
+plotting:
+  enabled: false
+  interval: 30000
+filtering:
+  nSamples: 5
+  polynomialOrder: 2
+  enabled: false
