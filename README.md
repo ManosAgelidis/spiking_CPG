@@ -8,7 +8,7 @@ To setup the experiment with the spiking CPG you need to have the Neurorobotics 
     source ~/.opt/platform_venv/bin/activate
     nengo
 
-This will open a nengo GUI window where you can select the model called Ijspeert_CPG and click play to simulate it. There are two options, pure math, or with spiking neurons. The default version is with spiking neurons. To activate the math version uncomment these lines in the script.
+This will open a nengo GUI window where you can select the model called ijspeert_CPG_standalone and click play to simulate it. There are two options, pure math, or with spiking neurons. The default version is with spiking neurons. To activate the math version uncomment these lines in the script.
     
     for ens in model.ensembles:
         ens.neuron_type=nengo.Direct()
@@ -29,7 +29,7 @@ Optional: If you want to plot in the command line version uncomment these lines
 
 To run the script with the command line just do 
 
-    python ijspeert_CPG.py
+    python ijspeert_CPG_standalone.py
 
 Running the model without the neuromechanical simulation does not depend on the NRP installation, so if you just install nengo in your machine running the script should work. To install nengo (you should have pip installed, and it's better to install it in a virtual environment, how to setup a virtual environment here https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
     
