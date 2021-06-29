@@ -5,7 +5,7 @@
 #include <gazebo/gazebo.hh>
 #include <gazebo/physics/physics.hh>
 #include <gazebo/common/common.hh>
-#include <gazebo_msgs/JointPositions.h>
+#include <gazebo_msgs/JointsPositions.h>
 
 // C++ stl
 #include <memory>
@@ -21,7 +21,7 @@
 #include <yaml-cpp/yaml.h>
 #include <gram_savitzky_golay/gram_savitzky_golay.h>
 
-#include "Plotter.h"
+//#include "Plotter.h"
 
 using namespace gazebo;
 
@@ -97,7 +97,7 @@ public:
     ~LampreyController(){};
 
     virtual void Load(physics::ModelPtr _model, sdf::ElementPtr _sdf);
-    virtual void OnTargets(const gazebo_msgs::JointPositions::ConstPtr &msg);
+    virtual void OnTargets(const gazebo_msgs::JointsPositions::ConstPtr &msg);
     void QueueThread();
 
 private:
@@ -121,7 +121,7 @@ private:
 
     // iterations counter
     int iterations;
-    void FirstLinkRotationErrorPub(const gazebo_msgs::JointPositions::ConstPtr &msg);
+    void FirstLinkRotationErrorPub(const gazebo_msgs::JointsPositions::ConstPtr &msg);
     std::deque<double> firstLinkRotationMemory;
     double averageFirstLinkRotation = 0.0;
     

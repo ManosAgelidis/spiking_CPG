@@ -2,7 +2,7 @@
 #include <iostream>
 #include <boost/math/special_functions/sign.hpp>
 #include <std_msgs/Float64.h>
-#include "lamprey_control/lamprey_simple_fluids_controller.h"
+#include "lamprey_simple_fluids_controller.h"
 #include <iomanip>
 std::ofstream file;
 
@@ -67,7 +67,7 @@ void LampreyController::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
     // setup a ros topic for the velocity and position targets
     std::string lampreyTargetsTopicName = "/lamprey_targets";
     ros::SubscribeOptions so =
-        ros::SubscribeOptions::create<gazebo_msgs::JointPositions>(lampreyTargetsTopicName, 1,
+        ros::SubscribeOptions::create<gazebo_msgs::JointsPositions>(lampreyTargetsTopicName, 1,
                                                                    boost::bind(&LampreyController::OnTargets, this, _1),
                                                                    ros::VoidPtr(), &queue);
     targetsSub = rosnode->subscribe(so);
@@ -127,7 +127,7 @@ void LampreyController::QueueThread()
     }
 }
 
-void LampreyController::FirstLinkRotationErrorPub(const gazebo_msgs::JointPositions::ConstPtr &msg)
+void LampreyController::FirstLinkRotationErrorPub(const gazebo_msgs::JointsPositions::ConstPtr &msg)
 {
     double currentError = 0;
     if (!firstLinkRotationMemory.empty() && iterations > 501)
@@ -145,7 +145,7 @@ void LampreyController::FirstLinkRotationErrorPub(const gazebo_msgs::JointPositi
     this->rotationErrorPub.publish(errorMessage);
 }
 
-void LampreyController::OnTargets(const gazebo_msgs::JointPositions::ConstPtr &msg)
+void LampreyController::OnTargets(const gazebo_msgs::JointsPositions::ConstPtr &msg)
 {
     boost::mutex::scoped_lock lock(this->mutex);
     common::Time currTime = this->model->GetWorld()->SimTime();

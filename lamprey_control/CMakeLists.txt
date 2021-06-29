@@ -56,26 +56,13 @@ include_directories(
 
 ## Declare a C++ library
 add_library(${PROJECT_NAME} SHARED
-  src/lamprey_control_plugin.cpp
-)
-
-add_library(lamprey_simple_fluids_controller SHARED
   src/lamprey_simple_fluids_controller.cpp
-  src/Plotter.cpp
 )
 
 add_library(lamprey_drag_force SHARED
   src/lamprey_drag_force.cpp
 )
 
-add_library(camera_move SHARED
-  src/camera_move.cpp
-)
-
-find_package(PythonLibs 2.7)
-find_package(gram_savitzky_golay REQUIRED)
-target_include_directories(lamprey_simple_fluids_controller PRIVATE ${CMAKE_SOURCE_DIR}/lamprey_control/external_libraries/matplotlib-cpp ${PYTHON_INCLUDE_DIRS})
-target_link_libraries(lamprey_simple_fluids_controller ${PYTHON_LIBRARIES} gram_savitzky_golay)
 
 ## Add cmake target dependencies of the library
 ## as an example, code may need to be generated before libraries
@@ -87,34 +74,17 @@ target_link_libraries(${PROJECT_NAME}
   ${GAZEBO_LIBRARIES}
 )
 
-target_link_libraries(lamprey_simple_fluids_controller
-  ${catkin_LIBRARIES}
-  ${GAZEBO_LIBRARIES}
-  yaml-cpp
-)
-
 target_link_libraries(lamprey_drag_force
   ${catkin_LIBRARIES}
   ${GAZEBO_LIBRARIES}
   yaml-cpp
 )
 
-target_link_libraries(camera_move
-  ${GAZEBO_LIBRARIES}
-)
 ## Install
 install(TARGETS ${PROJECT_NAME}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 )
 
-install(TARGETS lamprey_simple_fluids_controller
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-)
-
 install(TARGETS lamprey_drag_force
-  LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-)
-
-install(TARGETS camera_move
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 )

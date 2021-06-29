@@ -2,7 +2,7 @@
 #include <iostream>
 #include <boost/math/special_functions/sign.hpp>
 
-#include "lamprey_control/lamprey_drag_force.h"
+#include "lamprey_drag_force.h"
 
 void LampreyDragForce::Load(physics::ModelPtr _model, sdf::ElementPtr _sdf)
 {
