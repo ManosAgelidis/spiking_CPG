@@ -111,7 +111,7 @@ First you need to copy the experiment and model data into the correct folders
     # Install the robot controller
     cp lamprey_control $HBP/GazeboRosPackages/src
     cd $HBP/GazeboRosPackages
-    catkin_make
+    catkin build
     
 Then run the NRP:
     
